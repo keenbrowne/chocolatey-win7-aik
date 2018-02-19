@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>win7-aik</id>
+    <version>3.0</version>
+    <packageSourceUrl>https://github.com/chocolatey-win7-aik</packageSourceUrl>
+    <title>Windows Automated Installation Kit (AIK) for Windows 7</title>
+    <authors>Microsoft</authors>
+    <projectUrl>https://www.microsoft.com/en-us/download/details.aspx?id=5753</projectUrl>
+    <tags>AIK Windows</tags>
+    <summary>The Windows Automated Installation Kit (AIK) for Windows 7 helps you to install, customize, and deploy the Microsoft Windows 7 and Windows Server 2008 R2 family of operating systems.</summary>
+    <description>The Windows Automated Installation Kit (Windows AIK) is a set of tools and documentation that support the configuration and deployment of Windows operating systems. By using Windows AIK, you can automate Windows installations, capture Windows images with ImageX, configure and modify images using Deployment Imaging Servicing and Management (DISM), create Windows PE images, and migrate user profiles and data with the User State Migration Tool (USMT). Windows AIK also includes the Volume Activation Management Tool (VAMT), which enables IT professionals to automate and centrally manage the volume activation process using a Multiple Activation Key (MAK).</description>
+      <dependencies>
+          <dependency id="imdisk" version="2.0.9.20160815" />
+      </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
